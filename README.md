@@ -10,7 +10,7 @@ A simple program to generate a random fictional creature description. This proje
 
 ## General Information
 On running this app a random creature bio will be printed to the console, generated from pools of words and phrases. For example the console could print:
-> The frosty warbler lurks in the beams of churches. 
+> The frosty corn warbler lurks in the beams of churches. 
 > It hunts for toast daily.
 
 This app was created as part of the [Codecademy Full-Stack Engineer](https://www.codecademy.com/learn/paths/full-stack-engineer-career-path) course activity: Mixed Messages.
@@ -31,7 +31,7 @@ Project is: _in progress_.
 To do:
 - [X] Plan project
 - [X] Compose sentence structure
-- [ ] Compose and store sentence components
+- [X] Compose and store sentence components
 - [ ] Create random word picker
 - [ ] Put components together 
 - [ ] Test
