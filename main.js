@@ -150,10 +150,10 @@ const habitats = [
     'dreary swamps',
     'stagnant rivers',
     'clear rivers',
-    'under rocks',
+    'rocky outcrops',
     'burrows',
     'open seas',
-    'mountain tops',
+    'mountain snows',
     'sandy desserts',
     'back alleys',
     'shadowy corners',
@@ -247,5 +247,5 @@ const randSentence = () => {
      `It ${eatsVerb} ${foodItem} ${frequency}.`;
 };
 
-// Prints random element to the console
+// Prints random sentence to the console
 console.log(randSentence());
