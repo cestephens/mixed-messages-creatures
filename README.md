@@ -1,5 +1,5 @@
 # Mixed Messages - Creatures
-A simple program to generate a random fictional creature description. This project is currently in progress on a development branch. When code is functional it will be added to main.
+A simple program to generate a random fictional creature description. 
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -19,23 +19,22 @@ This app was created as part of the [Codecademy Full-Stack Engineer](https://www
 Written in Javascript, developed and tested using Node version 14.17.6
 
 ## Setup and Usage
-To run this app requires the use of Node.js and a command line interface (CLI).
+To run this app requires the use of [Node.js](https://nodejs.org) and a command line interface (CLI).
 
 * Download `main.js` and save locally.
 * Using you CLI set your working directory to the location of the above download.
 * Run using the command: `node main.js`
 
 ## Project Status
-Project is: _in progress_.
+Project is: _complete_.
 
-To do:
+Project steps:
 - [X] Plan project
 - [X] Compose sentence structure
 - [X] Compose and store sentence components
 - [X] Create random word picker
 - [X] Put components together 
-- [ ] Test
+- [X] Test
 
 Potential improvements:
-- [ ] Make some component words dependent on each other to improve final sentence readability.
-- [ ] Expand sentence component libraries. 
+* Expand sentence component libraries. 
