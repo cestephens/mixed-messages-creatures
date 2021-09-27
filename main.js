@@ -225,3 +225,27 @@ const frequencies = [
     'when you least expect',
     'nightly'
 ];
+
+// Function to pick random element in an array
+const randElement = (array) => {
+    let randomIndex = Math.floor(Math.random() * array.length);
+    return array[randomIndex];
+};
+
+// Function returns randomly generated sentence
+const randSentence = () => {
+    let adjective = randElement(adjectives);
+    let creatureType1 = randElement(creatureType1s);
+    let creatureType2 = randElement(creatureType2s);
+    let livesVerb = randElement(livesVerbs);
+    let habitat = randElement(habitats);
+    let eatsVerb = randElement(eatsVerbs);
+    let foodItem = randElement(foodItems);
+    let frequency = randElement(frequencies);
+
+    return `The ${adjective} ${creatureType1} ${creatureType2} ${livesVerb} in ${habitat}. ` +
+     `It ${eatsVerb} ${foodItem} ${frequency}.`;
+};
+
+// Prints random element to the console
+console.log(randSentence());

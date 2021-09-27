@@ -32,8 +32,8 @@ To do:
 - [X] Plan project
 - [X] Compose sentence structure
 - [X] Compose and store sentence components
-- [ ] Create random word picker
-- [ ] Put components together 
+- [X] Create random word picker
+- [X] Put components together 
 - [ ] Test
 
 Potential improvements:
